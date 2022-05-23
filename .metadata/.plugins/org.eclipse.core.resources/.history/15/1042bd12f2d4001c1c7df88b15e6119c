@@ -1,0 +1,16 @@
+package org.stepdef;
+
+import java.io.File;
+
+public class GeneratingReports {
+	
+	
+	public  void generateReports() {
+File file = new File("C:\\Users\\subas\\eclipse-workspace\\SampleJavaProject\\CucumAdactinOne\\target");
+	}
+	
+	
+	
+	
+
+}

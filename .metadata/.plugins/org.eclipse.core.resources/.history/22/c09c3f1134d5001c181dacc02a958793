@@ -1,0 +1,33 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class PageObject {
+    WebDriver driver;
+    By username = By.id("email");
+	By password = By.id("pass");
+	By login = By.name("login");
+
+	
+	
+	
+	public void username() {
+          		driver.findElement(username);
+	}
+	public void password() {
+  		driver.findElement(password);
+
+	}
+
+	public void login() {
+  		driver.findElement(login);
+	}
+
+	
+	
+	
+	
+	
+
+}

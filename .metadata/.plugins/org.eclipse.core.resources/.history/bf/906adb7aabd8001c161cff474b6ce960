@@ -1,0 +1,23 @@
+package org.base;
+
+public class ReturnType {
+	
+	
+	
+	public static int compareNum(int a,int b) {
+		int a;
+		int b;
+		
+
+		
+	}
+
+	public static void main(String[] args) {
+		ReturnType rt= new ReturnType();
+		int compareNum = rt.compareNum(50, 100);
+		System.out.println(compareNum);
+		
+         
+	}
+
+}

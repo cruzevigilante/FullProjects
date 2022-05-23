@@ -1,0 +1,15 @@
+Feature: validating login function of adactin website
+Scenario: validating login using valid credentials
+Given user launch browser in chrome browser
+When user enters "subashbose" and "subash"
+Then user validates homepage
+
+Scenario: validating login with invalid credentials
+Given user launch browser in chrome browser
+When user enters "subashbose1" and "subas"
+Then user validates error message
+@Smoke
+Scenario: validating login using valid credentials
+Given user launch browser in chrome browser
+When user enters "subashbose" and "subash"
+Then user validates homepage and book hotel using wrong checkin

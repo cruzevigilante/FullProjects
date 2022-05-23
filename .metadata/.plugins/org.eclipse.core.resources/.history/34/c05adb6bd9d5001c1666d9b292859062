@@ -1,0 +1,12 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+
+public class PractiseBase extends BaseClass {
+
+	public void fb() {
+		launchBrowser("https://fb.com");
+		getText(driver.findElement(By.id(null)));
+	}
+	
+}

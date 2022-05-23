@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\subas\eclipse-workspace\SampleJavaProject\DataDrivenFramework\pom.xml"/>
+			<item value="C:\Users\subas\eclipse-workspace\SampleJavaProject\Cucumver\pom.xml"/>
+			<item value="C:\Users\subas\eclipse-workspace\SampleJavaProject\MavenJava1\pom.xml"/>
+			<item value="C:\Users\subas\eclipse-workspace\SampleJavaProject\MavenJava\src\main\java\qaclickacademy"/>
+			<item value="C:\Users\subas\OneDrive\Desktop\agilan\Workspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="Iteration"/>
+			<item value="StatusCode"/>
+			<item value="JavaPrograms"/>
+			<item value="TestngAllTopics"/>
+			<item value="Interview"/>
+			<item value="AllTopics"/>
+			<item value="Tasks"/>
+			<item value="automation"/>
+			<item value="AddCart"/>
+			<item value="AdactinOne"/>
+			<item value="E2E"/>
+			<item value="CucumberDemo"/>
+			<item value="config"/>
+			<item value="FacebookLaunch"/>
+			<item value="Automation"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="CursorJava"/>
+			<item value="BrokenLink"/>
+			<item value="LogicalPractiseOne"/>
+			<item value="TestNGStudyy"/>
+			<item value="PhpTravels"/>
+			<item value="TestngpPractise"/>
+			<item value="XpathAxes"/>
+			<item value="cucumhomework"/>
+			<item value="CucumberFlipkart"/>
+			<item value="CucumAdactinOne"/>
+			<item value="CucumberAdactin"/>
+			<item value="Cucumber"/>
+			<item value="PropertiesFile"/>
+			<item value="CrossBrowser"/>
+			<item value="AdactinAutomation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="DataProvider"/>
+			<item value="BaseClass"/>
+			<item value="PopUp"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="TestNg"/>
+			<item value="PageObjectPattern"/>
+			<item value="WindowPopUp"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

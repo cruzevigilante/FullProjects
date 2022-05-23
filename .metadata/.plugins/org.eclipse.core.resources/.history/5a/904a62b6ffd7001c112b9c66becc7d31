@@ -1,0 +1,11 @@
+package org.simple;
+
+public class StringDuplicateRemoval {
+
+	public static void main(String[] args) {
+      
+		String s="automationtester";
+        String output ="";
+	}
+
+}

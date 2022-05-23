@@ -1,0 +1,43 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AdactinAutomation extends BaseClass {
+	
+	WebDriver driver;
+	
+	
+	
+	
+	@Test()
+	public void adactinLogin() {
+         launchBrowser("https://adactinhotelapp.com/");
+         
+         ObjectRepo obj=new ObjectRepo();
+			WebElement login = obj.getUsername();
+			login.sendKeys("subashbose");
+			
+			obj.getPass().sendKeys("subash");
+			obj.clickLogin().click();
+
+
+			
+			
+			
+			//         WebElement txtuser = driver.findElement(By.id("username"));
+//         txtuser.sendKeys(s);
+//         WebElement txtpass = driver.findElement(By.id("password"));
+//         txtpass.sendKeys(s1);
+         
+         
+         
+	}	
+	
+
+}

@@ -1,0 +1,13 @@
+package org.reports;
+
+import java.io.File;
+
+public class Reporting {
+	
+	
+	public void generateJVMReport() {
+         
+		File file=new File("C:\\Users\\subas\\eclipse-workspace\\SampleJavaProject\\Cucumber\\target");
+	}
+
+}

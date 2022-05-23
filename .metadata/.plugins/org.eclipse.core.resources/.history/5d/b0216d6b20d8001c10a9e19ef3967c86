@@ -1,0 +1,31 @@
+package org.base;
+
+import java.util.Vector;
+
+public class Enumeration {
+
+	public static void main(String[] args) {
+                      
+		Vector<String> v= new Vector<String>();
+		v.add("A");
+		v.add("B");
+		v.add("C");
+		v.add("D");
+		v.add("E");
+		System.out.println(v);
+		
+		java.util.Enumeration<String> elements = v.elements();
+		
+		while (elements.hasMoreElements()) {
+			
+			String string = (String) elements.nextElement();
+			
+		}
+       		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package org.base;
+
+public class Instance  {
+
+	public static void main(String[] args) {
+		
+		ReturnType.num();
+		
+		
+		//ReturnType r=new ReturnType();
+		
+         // System.out.println(ReturnType.a);		
+	}
+
+}

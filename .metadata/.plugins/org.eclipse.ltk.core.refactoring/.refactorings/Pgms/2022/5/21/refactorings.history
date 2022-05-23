@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Swapping2numbers.java&apos; to &apos;LogicalPrograms/src/org.logical&apos;&#x0D;&#x0A;- Original project: &apos;Pgms&apos;&#x0D;&#x0A;- Destination element: &apos;LogicalPrograms/src/org.logical&apos;&#x0D;&#x0A;- Original element: &apos;org.pgms.Swapping2numbers.java&apos;" description="Copy compilation unit" destination="=LogicalPrograms/src&lt;org.logical" element1="/src&lt;org.pgms{Swapping2numbers.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1652861552133" units="1" version="1.0"/>
+</session>

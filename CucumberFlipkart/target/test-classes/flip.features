@@ -1,0 +1,8 @@
+Feature: validate flipkart application
+Scenario Outline: validate adding products in flipkart
+Given launch flipkart in chrome browser using "<username>" and "<password>"
+
+Examples:
+|username|password|
+|subash|pwd12345|
+

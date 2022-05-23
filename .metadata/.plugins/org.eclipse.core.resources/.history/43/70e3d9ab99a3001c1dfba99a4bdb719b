@@ -1,0 +1,23 @@
+package com.cast;
+
+public class WorkersInfo {
+	
+	public static void workersId() {
+		
+		System.out.println("workers id is : 1234");
+			}
+    public String workersName (String name) {
+    		
+	return name;
+}
+
+  public static void main(String[] args) {
+	
+	WorkersInfo.workersId();
+	WorkersInfo w = new WorkersInfo();
+	String name1 = w.workersName("subash");
+	System.out.println(name1);
+	
+	
+	}
+}

@@ -1,0 +1,23 @@
+Feature: validate the login of Adactin website
+Scenario Outline: validate the hotel bookings for seven times
+Given launch adactin website on chrome browser
+When enter "<username>" and "<password>"
+And click on login button
+When user selects location
+And user should select hotel
+And user should select hotel room type
+And user should select number of rooms
+And user should select number of adults per room
+And user should select number of childrens per room
+Then user should search hotel
+And user should select the hotel and continue to next page
+When user should enter personal details
+Then user should click on booking
+And user should click on my itenary
+And get booking details from itenary
+
+
+Examples:
+|username|password|
+|subashbose|subash|
+

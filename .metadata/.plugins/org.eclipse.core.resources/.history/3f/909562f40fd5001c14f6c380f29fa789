@@ -1,0 +1,23 @@
+package org.stepdef;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DataTable {
+	
+	
+	public void oneDWithoutHeader() {
+		
+		
+		
+		List<String> li= new ArrayList<String>();
+		li.add("subash");
+		li.add("bose");
+		li.add("chandra");
+
+	    
+	
+	}
+	
+
+}

@@ -1,0 +1,9 @@
+package org.logical;
+
+public class MaxOccuranceOfAChar {
+
+	public static void main(String[] args) {
+             
+	}
+
+}

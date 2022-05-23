@@ -1,0 +1,32 @@
+package org.stepdef;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Test;
+
+public class DataTable {
+	
+	@Test
+	public void oneDWithoutHeader() {
+		
+		
+		
+		List<String> li= new ArrayList<String>();
+		li.add("subash");
+		li.add("bose");
+		li.add("chandra");
+		String string = li.get(0);
+		System.out.println(string);
+
+	    
+	
+	}
+	public void oneDWith() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+
+}

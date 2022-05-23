@@ -1,0 +1,30 @@
+package org.base;
+
+import java.util.HashMap;
+
+public class Map {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		  HashMap<Integer, String> map=new HashMap<>();
+		  map.put(10, "java");
+		  map.put(20, "sql");
+		  map.put(30, "ruby");
+		  map.put(40, "python");
+		  map.put(50, "c++");
+		  
+		  System.out.println(map);
+		 String string = map.get("sql");
+		  System.out.println(string);
+		  
+		//map.get
+		
+		
+		
+		
+		
+	}
+
+}

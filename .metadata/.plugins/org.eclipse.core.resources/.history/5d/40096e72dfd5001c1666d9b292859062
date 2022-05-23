@@ -1,0 +1,10 @@
+package org.stepdef;
+
+public class HooksClass {
+	public void beforeScenario() {
+		// TODO Auto-generated method stub
+
+	}
+	
+
+}

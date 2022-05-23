@@ -1,0 +1,24 @@
+package org.base;
+
+public class ReturnType {
+
+ static int a = 100;
+	int b = 50;
+
+	public void basicNum() {
+		System.out.println(a);
+		System.out.println(b);
+
+	}
+     public static void staticNum() {
+		System.out.println(a);
+	}
+
+	public static void main(String[] args) {
+		//ReturnType rt = new ReturnType();
+		//rt.basicNum();
+		//staticNum();
+
+	}
+
+}

@@ -1,0 +1,2 @@
+module SimpleProgram1 {
+}

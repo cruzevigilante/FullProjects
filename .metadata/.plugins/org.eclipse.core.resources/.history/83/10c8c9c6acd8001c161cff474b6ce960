@@ -1,0 +1,8 @@
+package org.base;
+
+public class Instance {
+
+	public static void main(String[] args) {
+	}
+
+}

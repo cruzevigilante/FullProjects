@@ -1,0 +1,13 @@
+Feature: validate the login function of facebook application 
+Scenario: validate login with validate username and invalid password 
+
+	Given launch facebook page on chrome browser 
+	When enter username and password 
+	And click on login button 
+	Then verify the homepage of facbook is visible or not 
+	
+#	Examples: 
+#		|username|password|
+#		|selenium|1234556|
+##		|java    |123456|
+##		|python  |123455|

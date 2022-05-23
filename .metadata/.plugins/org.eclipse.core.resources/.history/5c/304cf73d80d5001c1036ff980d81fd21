@@ -1,0 +1,22 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class ObjectRepo {
+	
+	
+	@FindBy(id="username")
+	private WebElement loginInfo;
+	
+	@FindBy(id="password")
+	private WebElement pass;
+	
+	@FindBy(id="login")
+	private WebElement login;
+	
+	
+	
+
+}

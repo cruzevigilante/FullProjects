@@ -1,0 +1,12 @@
+package org.base;
+
+public class Instance extends ReturnType {
+
+	public static void main(String[] args) {
+		ReturnType rt =new ReturnType();
+		rt.compareNum(200, 3000);
+		System.out.println(a);
+
+	}
+
+}

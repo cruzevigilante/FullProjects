@@ -1,0 +1,19 @@
+package org.simple;
+
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
+
+public class BrokenLinkUsingChromeOption {
+	
+	
+	@Test
+	public void statusCode() {
+		
+		ChromeOptions co=new ChromeOptions();
+		
+		
+	}
+	
+	
+
+}

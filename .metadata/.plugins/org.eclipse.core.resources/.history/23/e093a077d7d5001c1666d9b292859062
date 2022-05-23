@@ -1,0 +1,46 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BaseClass {
+	static WebDriver driver;	
+	
+	public static void launchBrowser(String url) {
+           WebDriverManager.chromedriver().setup();
+           driver=new ChromeDriver();
+           driver.get(url);
+	}
+	
+	
+	private void locator(String locator, String attributeValue) {
+		if (locator.equals("id")) {
+			driver.findElement(By.id(attributeValue));
+			
+			
+		}else if (locator.equals("class")) {
+			driver.findElement(By.className(attributeValue));
+
+			
+		}else if (locator.equals("xpath")) {
+			driver.findElement(By.xpath(attributeValue));
+			
+		}else if (locator.equals("cssSelector")) {
+			
+			driver.findElement(By.cssSelector(attributeValue));
+
+			
+		}else if (locator.equals("tagName")) {
+			driver.findElement(By.tagName(attributeValue));
+
+		}
+	}
+		
+	
+	
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package org.stepdef;
+
+public class DataTable {
+	
+	
+	public void oneDWithoutHeader() {
+		// TODO Auto-generated method stub
+
+	}
+	
+
+}

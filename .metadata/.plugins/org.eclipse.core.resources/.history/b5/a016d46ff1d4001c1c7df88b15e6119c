@@ -1,0 +1,15 @@
+package org.stepdef;
+
+public class GeneratingReports {
+	
+	
+	public  void generateReports() {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	
+	
+
+}

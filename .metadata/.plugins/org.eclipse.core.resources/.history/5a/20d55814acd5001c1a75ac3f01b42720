@@ -1,0 +1,26 @@
+package org.sample;
+
+import org.openqa.selenium.WebElement;
+
+public class ObjectRepo extends BaseClass {
+	
+	private WebElement username;
+	private WebElement password;
+    private WebElement login;
+
+	public WebElement getUsername() {
+		return username;
+	}
+
+	public WebElement getPassword() {
+		return password;
+	}
+
+	public WebElement getLogin() {
+		return login;
+	}
+	clk
+
+	
+	
+}

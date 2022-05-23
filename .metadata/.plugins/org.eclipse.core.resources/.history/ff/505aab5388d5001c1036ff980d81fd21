@@ -1,0 +1,40 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ObjectRepo extends BaseClass {
+	
+	public WebDriver driver;
+	@FindBy(id="username")
+	By password = By.id("password");
+	By Login = By.id("login");
+
+	public WebElement username() {
+
+		return username();
+	}
+
+	public WebElement password() {
+
+		return driver.findElement(password);
+
+	}
+
+	public WebElement login() {
+
+		return driver.findElement(Login);
+	}
+
+
+public ObjectRepo(WebDriver driver2) {
+this.driver=driver2;
+}
+	
+	
+	
+
+}

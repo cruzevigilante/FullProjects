@@ -1,0 +1,9 @@
+package org.sample;
+
+public class PractiseBase extends BaseClass {
+
+	public void fb() {
+		launchBrowser("https://fb.com");
+	}
+	
+}

@@ -1,0 +1,61 @@
+package org.stepdef;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.junit.Test;
+
+public class DataTable {
+	
+	@Test
+	public void oneDWithoutHeader() {
+		
+		
+		
+		List<String> li= new ArrayList<String>();
+		li.add("subash");
+		li.add("bose");
+		li.add("chandra");
+		String string = li.get(0);
+		System.out.println(string);
+
+	    
+	
+	}
+	@Test
+	public void oneDWithHeader() {
+           Map<String, String> mp=new HashMap<String, String>();
+           mp.put("Name", "bala");
+           mp.put("email", "bala@gmail.com");
+           mp.put("pass", "bala#22");
+           
+           String string2 = mp.get("Name");
+           System.out.println(string2);
+
+           
+    }
+	public void twoDWithoutHeader() {
+		List<List<String>> l= new ArrayList();
+		List<String> l1=new ArrayList<String>();
+		l1.add("raja");
+		l1.add("raja@gmail.com");
+		l1.add("raja@12");
+		List<String>l2=new ArrayList<String>();
+		l2.add("cruse");
+		l2.add("cruze@gmail.com");
+		l2.add("cruze@111");
+		l.add(l1);
+		l.add(l2);
+		List<String> list = l.get(1);
+		String string3 = list.get(0);
+		System.out.println(string3);
+		
+		
+
+	}
+	
+	
+
+}

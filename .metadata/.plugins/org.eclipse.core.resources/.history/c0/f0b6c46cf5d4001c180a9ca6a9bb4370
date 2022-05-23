@@ -1,0 +1,16 @@
+package org.reports;
+
+import java.io.File;
+
+import net.masterthought.cucumber.Configuration;
+
+public class Reporting {
+	
+	
+	public void generateJVMReport() {
+         
+		File file=new File("C:\\Users\\subas\\eclipse-workspace\\SampleJavaProject\\Cucumber\\target");
+		Configuration config = new Configuration(file, "Fb Report");
+	}
+
+}

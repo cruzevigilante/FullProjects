@@ -1,0 +1,12 @@
+package org.simple;
+
+public class BrokenLink {
+	
+	
+	
+	public void getLink() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

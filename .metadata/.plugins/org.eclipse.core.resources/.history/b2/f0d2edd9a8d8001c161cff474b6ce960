@@ -1,0 +1,25 @@
+package org.base;
+
+public class ReturnType {
+	
+	
+	
+	public int compareNum(int a,int b) {
+	
+		if (a>b) {
+			return a;
+			System.out.println("A is greater than B");
+			
+		} else {
+			return b;
+			System.out.println("B is greater than A ");
+
+		}
+		
+	}
+
+	public static void main(String[] args) {
+         
+	}
+
+}

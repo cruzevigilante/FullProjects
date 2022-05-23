@@ -1,0 +1,19 @@
+Feature: validating hotel booking 
+
+Scenario Outline: 
+	validating hotel booking using valid username and valid password 
+	Given launch chrome browser and open Acatin website 
+	When user enters "<username>" and "<password>" 
+	Then user enters "<location>" and "<Hotel name>" and "<Room type>" and "<No of rooms>" and "<Adults per room>" and "<Kids per room>" 
+	And user should click on search 
+	And user should select hotel 
+	And user should enter "<first name>" and "<last name>" and "<billing details>" 
+	And user should enter "<card details>" 
+	And user should get the order id 
+	
+	
+	
+	Examples: 
+		|username  |password|location|Hotel name |Room type|No of rooms    |Adults per room    |Kids per room |first name|last name  |billing details|card details    |
+		|subashbose|subash  |Sydney  |Hotel Creek|Standard |1 - One        |1 - One            |2 - Two       | Subash   |chandrabose|Chennai        |1234567890123456|   
+		|vijaykrishna007|anbu123@  |Sydney  |Hotel Creek|Standard |1 - One        |1 - One            |2 - Two       | Vijay   |krishna|Villupuram        |6834567890123456|   

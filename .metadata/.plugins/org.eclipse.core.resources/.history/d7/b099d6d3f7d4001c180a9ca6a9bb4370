@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "validate login with validate username and invalid password",
+        "description": "",
+        "id": "validate-the-login-function-of-facebook-application;validate-login-with-validate-username-and-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6335996500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch facebook page on chrome browser",
+            "match": {
+              "location": "StepDefinition.launch_facebook_page_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145694800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter \"selenium\" and \"1234556\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"1234556\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62391400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the homepage of facbook is visible or not",
+            "match": {
+              "location": "StepDefinition.verify_the_homepage_of_facbook_is_visible_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "validate login with validate username and invalid password",
+        "description": "",
+        "id": "validate-the-login-function-of-facebook-application;validate-login-with-validate-username-and-invalid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4824164800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch facebook page on chrome browser",
+            "match": {
+              "location": "StepDefinition.launch_facebook_page_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 380244400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter \"java\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinition.enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73314700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the homepage of facbook is visible or not",
+            "match": {
+              "location": "StepDefinition.verify_the_homepage_of_facbook_is_visible_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "validate login with validate username and invalid password",
+        "description": "",
+        "id": "validate-the-login-function-of-facebook-application;validate-login-with-validate-username-and-invalid-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4284476100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch facebook page on chrome browser",
+            "match": {
+              "location": "StepDefinition.launch_facebook_page_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136298600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter \"python\" and \"123455\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"python\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"123455\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62540700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the homepage of facbook is visible or not",
+            "match": {
+              "location": "StepDefinition.verify_the_homepage_of_facbook_is_visible_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate the login function of facebook application",
+    "description": "",
+    "id": "validate-the-login-function-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.features",
+    "tags": []
+  }
+]

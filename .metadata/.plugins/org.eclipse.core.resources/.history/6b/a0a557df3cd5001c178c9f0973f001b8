@@ -1,0 +1,23 @@
+package org.task;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class PriceMatch {
+	WebDriver driver;
+	@Test
+	public void taskVerify() {
+		
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.get("https://phptravels.com/");
+		driver.findElement(By.xpath("//a[@class='lvl-0 link nav-link']")).click();
+		
+		
+	}
+
+}

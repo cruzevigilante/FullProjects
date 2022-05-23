@@ -1,0 +1,17 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class PractiseBase extends BaseClass {
+    @Test
+	public void fb() {
+		launchBrowser("https://fb.com");
+		String text = getText(driver.findElement(By.xpath("//h2[@class='_8eso']")));
+		System.out.println(text);
+		//WebElement txtUsername = driver.findElement(By.id("email"));
+		typeText(driver.findElement(By.id("email")), "subash");
+	}
+	
+}

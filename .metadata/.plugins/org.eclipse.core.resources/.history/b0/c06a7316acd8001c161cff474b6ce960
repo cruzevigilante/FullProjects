@@ -1,0 +1,17 @@
+package org.base;
+
+public class ReturnType {
+	
+	
+	
+	
+
+		
+	}
+
+	public static void main(String[] args) {
+		ReturnType rt= new ReturnType();
+		         
+	}
+
+}

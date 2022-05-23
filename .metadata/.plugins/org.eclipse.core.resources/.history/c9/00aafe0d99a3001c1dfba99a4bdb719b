@@ -1,0 +1,19 @@
+package com.cast;
+
+public class WorkersInfo {
+	
+	public static void workersId() {
+		
+		System.out.println("workers id is : 1234");
+			}
+    public static void workersName() {
+	
+	System.out.println("workers name is Beta");
+}
+
+  public static void main(String[] args) {
+	
+	WorkersInfo.workersId();
+	WorkersInfo.workersName();
+	}
+}

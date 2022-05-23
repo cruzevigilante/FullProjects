@@ -1,0 +1,27 @@
+package org.base;
+
+public class ReturnType {
+	
+	
+	
+	public int compareNum(int a,int b) {
+	
+		if (a>b) {
+			return a;
+			
+		} else {
+			return b;
+
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		ReturnType rt= new ReturnType();
+		int compareNum = rt.compareNum(50, 100);
+		System.out.println(map.put(10, "java"););
+		
+         
+	}
+
+}

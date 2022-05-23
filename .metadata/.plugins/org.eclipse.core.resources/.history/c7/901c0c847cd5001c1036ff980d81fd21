@@ -1,0 +1,11 @@
+package org.sample;
+
+public class BaseClass {
+	
+	
+	public void launchBrowser() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

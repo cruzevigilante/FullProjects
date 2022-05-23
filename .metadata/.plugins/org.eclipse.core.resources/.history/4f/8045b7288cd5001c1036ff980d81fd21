@@ -1,0 +1,25 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class AdactinAutomation extends BaseClass {
+
+
+	@Test()
+	public void adactinLogin() {
+		launchBrowser("https://fb.com/");
+		String Actual="Facebook – log in or sign up";
+		String Expected = driver.getTitle();
+		Assert.assertEquals(Expected, Actual);
+		System.out.println("Assertion Success");
+
+		}
+
+}

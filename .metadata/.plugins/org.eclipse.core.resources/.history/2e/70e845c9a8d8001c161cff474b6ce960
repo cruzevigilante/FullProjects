@@ -1,0 +1,17 @@
+package org.base;
+
+public class ReturnType {
+	
+	
+	
+	public void compareNum(int a,int b) {
+	
+		
+		
+	}
+
+	public static void main(String[] args) {
+         
+	}
+
+}

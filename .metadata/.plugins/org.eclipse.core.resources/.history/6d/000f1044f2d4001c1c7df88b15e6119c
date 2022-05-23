@@ -1,0 +1,29 @@
+package org.stepdef;
+
+import java.io.File;
+import java.lang.module.Configuration;
+
+import net.masterthought.cucumber.ReportBuilder;
+
+public class GeneratingReports {
+	
+	
+	public  void generateReports() {
+		
+       File file = new File("C:\\Users\\subas\\eclipse-workspace\\SampleJavaProject\\CucumAdactinOne\\target");
+
+
+
+
+
+             ReportBuilder builder = new ReportBuilder(null, null);
+
+
+
+	}
+	
+	
+	
+	
+
+}

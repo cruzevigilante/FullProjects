@@ -1,0 +1,21 @@
+
+package com.cast;
+
+import java.util.ArrayList;
+
+public class WorkersInfo {
+
+  public static void main(String[] args) {
+	  
+	  
+	  ArrayList<String> a = new ArrayList<String>();
+		a.add("subash");
+		System.out.println(a);
+	
+	
+				
+	}
+	
+
+	}
+

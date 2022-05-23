@@ -1,0 +1,8 @@
+package org.reports;
+
+public class Reporting {
+	public void generateJVMReport() {
+
+	}
+
+}

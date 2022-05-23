@@ -1,0 +1,24 @@
+package org.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
+public class AdactinAutomation extends BaseClass {
+
+
+	@Test()
+	public void adactinLogin() {
+		launchBrowser("https://fb.com/");
+		WebElement findElement = driver.findElement(By.name("login"));
+		boolean enabled = findElement.isEnabled();
+		Assert.assertTrue(enabled);
+		
+		}
+		
+
+		
+
+}
